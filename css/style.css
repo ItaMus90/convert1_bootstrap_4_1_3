@@ -1,0 +1,237 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css?family=Lato|Pacifico|Righteous|Roboto+Condensed|Ubuntu');
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Lato';
+}
+
+.navbar-brand{
+    font-family: 'Pacifico';
+    font-size: 35px;
+    color: lightcoral !important;
+}
+
+.nav-link{
+    font-size: 16px;
+    margin: 15px;
+    color: #000 !important;
+    font-family: 'Roboto Condensed';
+}
+
+.nav-link:hover{
+    color: #00e8e8 !important;
+}
+
+.active .nav-link{
+    color: #00e8e8 !important;
+}
+
+.menu-right-btn{
+    padding: 13px 46px;
+    margin-right: 4%;
+    background-color: transparent;
+    transition: all 300ms ease-in;
+}
+
+.menu-right-btn:hover{
+    color: #fff;
+    background: #00e8e8;
+}
+
+.site-content{
+    background-image: url('/images/8.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.site-title,
+.site-desc{
+    color: #fff;
+    font-family: 'Righteous';
+}
+
+.site-title{
+    margin-top: 30%;
+    margin-bottom: 6%;
+    font-size: 50px;
+}
+
+.site-desc{
+    font-size: 14px;
+    padding-left: 9%;
+}
+
+.site-btn1{
+    margin-left: 20%;
+    background: #000;
+    color: #fff;
+}
+
+.site-btn2{
+    background: #fff;
+}
+
+.site-btn1,
+.site-btn2{
+    margin-top: 5%;
+    margin-bottom: 40%;
+}
+
+
+/* Section Features */
+
+.section-features .heading-features-1{
+    margin-top: 8%;
+}
+
+.section-features .heading-features-2{
+    margin-bottom: 5%;
+    font-size: 39px;
+}
+
+.section-features .para-features{
+    width: 60%;
+    margin-left: 20%;
+    margin-bottom: 5%; 
+}
+
+
+.section-features .card-text, .para-features{
+    color: rgba(0, 0, 0, 0.59);
+}
+
+.section-features{
+    margin-bottom: 8%;
+}
+
+.card{
+    width: 20rem;
+}
+
+
+/* Section Events */
+
+.section-events .container-fluid{
+    background: url('/images/6.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.section-events .heading-events-1{
+    margin-top: 20%;
+    margin-bottom: 4%;
+    font-family: 'Righteous';
+    width: 80%;
+    color: #fff;
+}
+
+.section-events .para-events{
+    width: 80%;
+    font-family: 'Ubuntu';
+    color: whitesmoke;
+    margin-bottom: 7%;
+}
+
+.section-events .btn{
+    margin-bottom: 15%;
+    width: 30%; 
+    padding: 2% 5%;
+}
+
+/* Section Gallary */
+.section-gallary{
+    margin-top: 6%;
+}
+
+.section-gallary i{
+    color: #00e8e8;
+}
+
+.section-gallary p{
+    color: rgba(0, 0, 0, 0.59);
+}
+
+/* Section Pages */
+
+.section-pages{
+    margin-top: 8%;
+}
+
+.section-pages .row .col-md-7, 
+.section-pages .row .col-md-5{
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.section-pages a{
+    color: lightseagreen;
+    font-size: 40px;
+    text-decoration: none;
+}
+
+.section-pages .para-pages{
+    color: #fff;
+    font-family: 'Roboto Condensed';
+    margin-top: 7%;
+    font-size: 23px;
+}
+
+/* Footer */
+.social i{
+    color: #ef5651;
+    font-size: 20px;
+}
+
+
+@media screen and (max-width:768px){
+    .section-features .card{
+        width: 14rem;
+    }
+
+    .section-pages .col-md-7 img{
+        width: 350px;
+    }
+}
+
+@media screen and (max-width:320px){
+    .site-content .site-title{
+        font-size: 30px;
+        padding-left: 15%;
+    }
+
+    .site-content .site-btn2{
+        display: none;
+    }
+
+    .site-content .site-btn1{
+        margin-left: 15%;
+    }
+
+    .section-features .heading-features-1,
+    .section-features .heading-features-2{
+        font-size: 25px;
+    } 
+
+    .section-features .col-md-4{
+        padding: 5%;
+        margin-left: 8%;
+    }
+
+    .section-features .card{
+        width: 15rem;
+    }
+
+    .section-pages .col-md-7 img{
+        width: 283px;
+    }
+
+    .section-pages .col-md-5{
+        padding: 0% 15%;
+    }
+
+    footer input[type="button"]{
+        margin-top: 5%; 
+    }
+}
